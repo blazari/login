@@ -1,0 +1,75 @@
+body{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+     background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.logo{
+    font-family: 'Permanent Marker', cursive;  
+}
+header{
+    text-align: center;
+    font-size: 60px;
+    position: absolute;
+    left: 38%;
+    top: 5%;
+}
+.napis{
+    font-family: 'Trispace', sans-serif;
+}
+.main{
+    position: absolute;
+    font-family: 'Trispace', sans-serif;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+    left: 41.5%;
+    top: 35%;
+    font-size: 30px;
+    width: auto;
+    height: 350px;
+    background: transparent;
+    padding: 5px;
+}
+.login{
+    padding: 10px;
+}
+.haslo{
+    padding: 10px;
+}
+.mail{
+    padding: 10px;
+}
+input{
+    border-radius: 10px;
+    padding: 7px;
+    box-shadow: 0px 0px 10px black;
+    border: none;
+}
+.register > input{
+    position: absolute;
+    left: 19%;
+    top: 78%;
+    font-size: 30px;
+    padding: 10px;
+    background: transparent;
+    box-shadow: 0px 0px 10px black;
+    transition: 500ms;
+}
+.register > input:hover{
+    background: rgba(255, 255, 255, 0.568);
+    border: 1px solid black;
+}
